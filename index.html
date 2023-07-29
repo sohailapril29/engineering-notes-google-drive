@@ -1,38 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Your Page Title</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Subject Selector</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Subject Selector</h1>
-        <form id="subjectForm">
+    <div class="card">
+        
+        
+        <!-- Existing content -->
+        <div class="container">
+          <h1>Subject Selector</h1>
+          <form id="subjectForm">
             <label for="semesterSelect">Select Semester:</label>
             <select id="semesterSelect">
-                <option value="">Select a Semester</option>
-                <option value="1">Semester 6</option>
-                <option value="2">Semester 7</option>
-                <!-- Add options for all 6 semesters -->
+              <option value="">Select a Semester</option>
+              <option value="1">Semester 6</option>
+              <option value="2">Semester 7</option>
+              <!-- Add options for all 6 semesters -->
             </select>
-
+      
             <label for="subjectSelect">Select Subject:</label>
             <select id="subjectSelect" disabled>
-                <option value="">Select a Semester first</option>
-                <!-- Options will be dynamically populated based on the selected semester -->
+              <option value="">Select a Semester first</option>
+              <!-- Options will be dynamically populated based on the selected semester -->
             </select>
-
+      
             <button type="button" id="getLinkButton" disabled>Get Google Drive Link</button>
-        </form>
-
-        <div id="result" class="hidden">
+          </form>
+      
+          <div id="result" class="hidden">
             <p>Your Google Drive link:</p>
             <a id="googleDriveLink" target="_blank"></a>
+          </div>
         </div>
-    </div>
-
-    <script src="script.js"></script>
+      </div>
+<script src="script.js"></script>    
 </body>
 </html>
