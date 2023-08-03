@@ -7,20 +7,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     const semesterSubjects = {
-        1: [
+        1:  [
+            { name: 'Control System', link: 'https://drive.google.com/drive/folders/1R6E1pGAfsm-3tgFG8BCFlnqGWhe_NO_r?usp=sharing' },
+            { name: 'Microprocessor and Microcontroller', link: 'https://drive.google.com/drive/folders/1i6ZpynK80PykOSK2WlvsLw3iiACGc14-?usp=sharing' },
+            // { name: 'Subject 2C', link: 'https://drive.google.com/subject2c-link' },
+            // { name: 'Subject 2D', link: 'https://drive.google.com/subject2d-link' },
+            // { name: 'Subject 2E', link: 'https://drive.google.com/subject2e-link' }
+        ],
+        2: [
             { name: 'Computer Architecture', link: 'https://drive.google.com/drive/folders/1TXbeNhxSEpO7chgjgGL5KJXOKWdS8_iH?usp=sharing' },
             { name: 'Microwave and Radar Engineering', link: 'https://drive.google.com/drive/folders/1FMQNqORFUcRrSwqdEycWTn2W3RCwTZZR?usp=sharing' },
             { name: 'Digital Signal Processing', link: 'https://drive.google.com/drive/folders/1ZjzCi1nkzzkgXiJoUSj0_8zTVI7_x7y7?usp=sharing' },
             { name: 'Information Theory and Coding Techniques', link: 'https://drive.google.com/drive/folders/1KipytQ4pcfReD0z2Q97Pj5muTGySHBJ9?usp=sharing' },
             { name: 'Business Economics and Financial Analysis', link: 'https://drive.google.com/drive/folders/1utl8jBhdLLB5VwqEtejujMJLFVb1Ta7M?usp=sharing' },
             { name: 'Design of Algorithms', link: 'https://drive.google.com/drive/folders/1_VFXkGth2YIu72UJ-Z_7E52oR3LneNnE?usp=sharing' } // Fixed link for "Design of Algorithms"
-        ],
-        2: [
-            { name: 'Subject 2A', link: 'https://drive.google.com/subject2a-link' },
-            { name: 'Subject 2B', link: 'https://drive.google.com/subject2b-link' },
-            { name: 'Subject 2C', link: 'https://drive.google.com/subject2c-link' },
-            { name: 'Subject 2D', link: 'https://drive.google.com/subject2d-link' },
-            { name: 'Subject 2E', link: 'https://drive.google.com/subject2e-link' }
         ],
 
     };

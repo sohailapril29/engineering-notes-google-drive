@@ -1,0 +1,16 @@
+roject: /run/media/sohail/5dc72cd9-f9c2-4eeb-84f9-820e550f259a/semesters/B.tech/websites/engineering notes google drive/
+         domain: sohailapril.surge.sh
+         upload: [====================] 100% eta: 0.0s (5 files, 4879 bytes)
+            CDN: [====================] 100%
+     encryption: *.surge.sh, surge.sh (291 days)
+             IP: 138.197.235.123
+
+   Success! - Published to sohailapril.surge.sh
+
+
+
+
+
+
+
+  
